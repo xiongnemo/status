@@ -37,3 +37,9 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+    
+  - id: blog-anzupop-com
+    name: The Anzupop Blog
+    url: 'https://blog.anzupop.com/'
+    method: GET
+    expectStatus: 200
