@@ -1,7 +1,7 @@
 settings:
   title: 'Anzupop Status Page'
   url: 'https://status-page.anzupop.workers.dev' # used for Slack messages
-  logo: logo.gif # image in ./public/ folder
+  logo: logo.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
