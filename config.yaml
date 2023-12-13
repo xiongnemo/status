@@ -1,5 +1,5 @@
 settings:
-  title: 'Anzupop Status Page'
+  title: 'Anzupop Infrastructure Status'
   url: 'https://status-page.anzupop.workers.dev' # used for Slack messages
   logo: logo.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -27,3 +27,21 @@ monitors:
     url: 'https://blog.anzupop.com/'
     method: GET
     expectStatus: 200
+
+  - id: navidrome-anzupop-com
+    name: Anzupop Navidrome (cloudflared)
+    url: 'https://navidrome-cf.anzupop.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: home-assistant-anzupop-com
+    name: Nemo's home assistant (cloudflared)
+    url: 'https://home-assistant-cf.anzupop.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: cernet2-entry
+    name: CERNET2 Entry
+    url: 'http://202.120.163.159:65443/'
+    method: GET
+    expectStatus: 400
