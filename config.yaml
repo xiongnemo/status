@@ -40,6 +40,18 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: hiyo-anzupop-com
+    name: Hiyo (VMess)
+    url: 'https://hiyo.anzupop.com/'
+    method: GET
+    expectStatus: 400
+
+  - id: vless-anzupop-com
+    name: Anzupop VLess
+    url: 'https://vless.anzupop.com/'
+    method: GET
+    expectStatus: 200
+
   # - id: cernet2-entry
   #   name: CERNET2 Entry
   #   url: 'http://202.120.163.159:65443/'
