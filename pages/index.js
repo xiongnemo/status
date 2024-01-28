@@ -90,18 +90,19 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
         })}
         <div className="flex flex-row justify-between mt-4 text-sm">
           <div>
-            Powered by{' '}
+            由{' '}
             <a href="https://workers.cloudflare.com/" target="_blank">
               Cloudflare Workers{' '}
             </a>
-            &{' '}
+            和{' '}
             <a href="https://flareact.com/" target="_blank">
               Flareact{' '}
             </a>
-            ,{' '}part of{' '}
+            提供支持。该站点属于{' '}
             <a href="https://anzupop.com/" target="_blank">
-              Anzupop{' '}
+              Anzupop
             </a>
+            。
           </div>
           <div>
           </div>
