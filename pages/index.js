@@ -96,9 +96,9 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
             </a>
             &{' '}
             <a href="https://flareact.com/" target="_blank">
-              Flareact, {' '}
+              Flareact{' '}
             </a>
-            a part of{' '}
+            ,{' '}part of{' '}
             <a href="https://anzupop.com/" target="_blank">
               Anzupop{' '}
             </a>
