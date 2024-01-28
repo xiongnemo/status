@@ -32,7 +32,7 @@ monitors:
     name: Anzupop Navidrome (cloudflared)
     url: 'https://navidrome-cf.anzupop.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 302
 
   - id: home-assistant-anzupop-com
     name: Nemo's home assistant (cloudflared)
@@ -40,8 +40,8 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: cernet2-entry
-    name: CERNET2 Entry
-    url: 'http://202.120.163.159:65443/'
-    method: GET
-    expectStatus: 400
+  # - id: cernet2-entry
+  #   name: CERNET2 Entry
+  #   url: 'http://202.120.163.159:65443/'
+  #   method: GET
+  #   expectStatus: 400
