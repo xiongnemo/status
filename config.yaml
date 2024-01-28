@@ -52,6 +52,18 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: tbot-api-anzupop-com
+    name: Anzupop reverse proxy (Telegram bot API)
+    url: 'https://tbot-api.anzupop.com/bot'
+    method: GET
+    expectStatus: 404
+
+  - id: ark-anzupop-com
+    name: Anzupop reverse proxy (Intel Product Specifications)
+    url: 'https://ark.anzupop.com'
+    method: GET
+    expectStatus: 200
+
   # - id: cernet2-entry
   #   name: CERNET2 Entry
   #   url: 'http://202.120.163.159:65443/'
