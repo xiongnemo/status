@@ -62,7 +62,7 @@ monitors:
     name: Anzupop reverse proxy (Intel Product Specifications)
     url: 'https://ark.anzupop.com/libs/'
     method: GET
-    expectStatus: 404
+    expectStatus: 403
 
   # - id: cernet2-entry
   #   name: CERNET2 Entry
