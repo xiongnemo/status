@@ -1,29 +1,29 @@
 settings:
-  title: 'Anzupop Infrastructure Status'
-  url: 'https://status-page.anzupop.workers.dev' # used for Slack messages
+  title: 'Anzupop 建构状态'
+  url: 'https://status.anzupop.com/' # used for Slack messages
   logo: logo.png # image in ./public/ folder
   daysInHistogram: 60 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
-  monitorLabelOperational: 'Operational'
-  monitorLabelNotOperational: 'Not Operational'
-  monitorLabelNoData: 'No data'
-  dayInHistogramNoData: 'No data'
-  dayInHistogramOperational: 'All good'
-  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
+  allmonitorsOperational: '所有系统运行正常'
+  notAllmonitorsOperational: '并非所有系统运行正常'
+  monitorLabelOperational: '正常运行'
+  monitorLabelNotOperational: '未正常运行'
+  monitorLabelNoData: '无数据'
+  dayInHistogramNoData: '无数据'
+  dayInHistogramOperational: '无事件'
+  dayInHistogramNotOperational: ' 次事件' # xx incident(s) recorded
 
 monitors:
 
   - id: www-anzupop-com
-    name: Anzupop Home
+    name: Anzupop 主页
     url: 'https://www.anzupop.com/'
     method: GET
     expectStatus: 200
     
   - id: blog-anzupop-com
-    name: The Anzupop Blog
+    name: Anzupop 博客
     url: 'https://blog.anzupop.com/'
     method: GET
     expectStatus: 200
@@ -53,13 +53,13 @@ monitors:
     expectStatus: 200
 
   - id: tbot-api-anzupop-com
-    name: Anzupop reverse proxy (Telegram bot API)
+    name: Anzupop 反代 (针对 Telegram 机器人的 API)
     url: 'https://tbot-api.anzupop.com/bot'
     method: GET
     expectStatus: 404
 
   - id: ark-anzupop-com
-    name: Anzupop reverse proxy (Intel Product Specifications)
+    name: Anzupop 反代 (针对 Intel Product Specifications)
     url: 'https://ark.anzupop.com/libs/'
     method: GET
     expectStatus: 403
