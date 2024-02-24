@@ -43,7 +43,7 @@ export default function MonitorFilter({ active, callback }) {
         value={input}
         onInput={handleInput}
         onKeyDown={handleKeyDown}
-        placeholder="Tap '/' to search"
+        placeholder="按 '/' 按键进行页内搜索"
         tabIndex={0}
         ref={(e) => e && active && e.focus()}
       />
