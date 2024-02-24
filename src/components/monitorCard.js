@@ -52,7 +52,7 @@ export default function MonitorCard({ key, monitor, data }) {
 
       <div className="flex flex-row justify-between items-center text-gray-400 text-sm">
         <div>{config.settings.daysInHistogram} 天之前</div>
-        <div>Today</div>
+        <div>今天</div>
       </div>
     </div>
   )
