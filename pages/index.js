@@ -98,11 +98,11 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
             <a href="https://flareact.com/" target="_blank">
               Flareact{' '}
             </a>
-            提供支持。该站点属于{' '}
+            提供支持。该站点是{' '}
             <a href="https://anzupop.com/" target="_blank">
               Anzupop
             </a>
-            。
+            {' '}基础架构的一部分。
           </div>
           <div>
           </div>
