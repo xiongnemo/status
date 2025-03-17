@@ -41,10 +41,10 @@ monitors:
   #   expectStatus: 200
 
   - id: hiyo-anzupop-com
-    name: Hiyo (VMess)
+    name: Hiyo
     url: 'https://hiyo.anzupop.com/'
     method: GET
-    expectStatus: 400
+    expectStatus: 200
 
   - id: vless-anzupop-com
     name: Anzupop VLess
