@@ -28,6 +28,12 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: techblog-anzupop-com
+    name: Anzupop 技术博客
+    url: 'https://techblog.anzupop.com/'
+    method: GET
+    expectStatus: 200
+
   - id: navidrome-anzupop-com
     name: Anzupop Navidrome (cloudflared)
     url: 'https://navidrome-cf.anzupop.com/'
